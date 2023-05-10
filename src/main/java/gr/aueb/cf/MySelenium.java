@@ -8,10 +8,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 
 
-public class MySellenium {
+public class MySelenium {
     public static void main(String[] args) throws InterruptedException{
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Apostolis S/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\iMasteRepair\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(options);
